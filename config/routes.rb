@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  get '/drinks', to: 'drinks#index'
-  get '/drinks/:id', to: 'drinks#show'
-  post '/drinks', to: 'drinks#create'
-  delete '/drinks/:id', to: 'drinks#delete'
-  put '/drinks/:id', to: 'drinks#update'
+  get '/recipes', to: 'recipes#index'
+  get '/recipes/:id', to: 'recipes#show'
+  post '/recipes', to: 'recipes#create'
+  delete '/recipes/:id', to: 'recipes#delete'
+  put '/recipes/:id', to: 'recipes#update'
 end

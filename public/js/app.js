@@ -66,7 +66,7 @@ class Coffees extends React.Component {
   }
 
   deleteCoffee (coffee, index) {
-    fetch('drinks/' + coffee.id,
+    fetch('recipes/' + coffee.id,
       {
         method: 'DELETE'
       })
@@ -86,7 +86,7 @@ class Coffees extends React.Component {
   }
   handleUpdateSubmit (coffee) {
     console.log(coffee.id)
-      fetch('/drinks/'+ coffee.id, {
+      fetch('/recipes/'+ coffee.id, {
         body: JSON.stringify(coffee),
         method: 'PUT',
         headers: {
@@ -108,7 +108,7 @@ class Coffees extends React.Component {
 
 
   handleCreateSubmit (coffee) {
-    fetch('/drinks', {
+    fetch('/recipes', {
       body: JSON.stringify(coffee),
       method: 'POST',
       headers: {
@@ -131,7 +131,7 @@ class Coffees extends React.Component {
   }
 
   getCoffees () {
-    fetch('/drinks')
+    fetch('/recipes')
       .then(response => response.json())
       .then(data => {
         this.setState({
@@ -329,13 +329,6 @@ class Coffee extends React.Component {
           </div>
           <div className='tile is-2'></div>
           <div className='tile'>
-            {/*<div>
-              <h3 className='tile is-child box'><span>Title:</span> {this.props.coffee.name} </h3>
-              <p className='tile is-child box'><span>Type:</span>{this.props.coffee.type} </p>
-              <p className='tile is-child box'><span>Genre:</span> {this.props.coffee.ingredients} </p>
-              <p className='tile is-child box'><span>Description:</span> {this.props.coffee.description} </p>
-              <p className='tile is-child box'><span>Instructions:</span>{this.props.coffee.instructions} </p>
-            </div>*/}
             <div className='tile'>
             </div>
           <div className='tile'>
@@ -409,7 +402,7 @@ class Header extends React.Component {
       render () {
         return (
           <footer>
-        
+
             <div id="foot">
               <div id="creator">
                 Created Kellie Dambroso
