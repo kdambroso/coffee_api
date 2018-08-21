@@ -18,13 +18,13 @@ class CoffeesList extends React.Component {
                 <h3> {coffee.name} </h3>
               </td>
               <td>
-                  <button className='button is-warning is-small'
+                  <button className='small button'
                   onClick={()=>
                   { this.props.getCoffee(coffee); this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}}
                   >Edit</button>
               </td>
               <td>
-                  <button className='button is-danger is-small' onClick={() => this.props.deleteCoffee(coffee, index)}>Delete</button>
+                  <button className='alert button small' onClick={() => this.props.deleteCoffee(coffee, index)}>Delete</button>
               </td>
             </tr>
           )
@@ -157,7 +157,7 @@ class Coffees extends React.Component {
     return (
       <div className='coffees column'>
 
-        {this.state.coffeesListAvailable ? <button className='button is-success' onClick={()=>this.toggleState('addCoffeeAvailable', 'coffeesListAvailable')}>Add a Coffee</button> :''}
+        {this.state.coffeesListAvailable ? <button className='success tiny button' onClick={()=>this.toggleState('addCoffeeAvailable', 'coffeesListAvailable')}>Add a Coffee</button> :''}
         {
           this.state.coffeesListAvailable ?
             <CoffeesList
@@ -245,7 +245,7 @@ class CoffeeForm extends React.Component {
     return (
       <div className='field'>
         <form onSubmit={this.handleSubmit}>
-          <label className='label' for='name'>Title</label>
+          <label className='label' for='name'>Name</label>
           <div className='control'>
             <input
               className='input'
@@ -265,6 +265,15 @@ class CoffeeForm extends React.Component {
               id='type'
             />
           </div>
+          <label className='label' for='description'>Description</label>
+          <div className='control'>
+            <textarea
+              className='input'
+              type='text'
+              id='description'
+              onChange={this.handleChange}
+              value= {this.state.description}
+            />
           <label className='label' for='ingredients'>Ingredients</label>
           <div className='control'>
             <input className='input'
@@ -274,15 +283,6 @@ class CoffeeForm extends React.Component {
               value= {this.state.ingredients}
             />
           </div>
-          <label className='label' for='description'>Description</label>
-          <div className='control'>
-            <input
-              className='input'
-              type='text'
-              id='description'
-              onChange={this.handleChange}
-              value= {this.state.description}
-            />
           </div>
           <label className='label 'for='image'>Image</label>
           <div className='control'>
@@ -302,14 +302,15 @@ class CoffeeForm extends React.Component {
               onChange={this.handleChange}
               value= {this.state.instructions}
               id='instructions'
+
             />
           </div>
           <div className='control'>
-            <input className='button is-primary' type='submit' />
+            <input className='success button' type='submit' />
           </div>
         </form>
           {!this.state.id ?
-          <button className="button is-link" onClick={()=> this.props.toggleState('coffeesListAvailable', 'addCoffeeAvailable')}>Cancel</button> :''}
+          <button className="button" onClick={()=> this.props.toggleState('coffeesListAvailable', 'addCoffeeAvailable')}>Cancel</button> :''}
       </div>
     )
   }
@@ -332,12 +333,12 @@ class Coffee extends React.Component {
             <div className='tile'>
             </div>
           <div className='tile'>
-            <button className='button is-warning' onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>See Full List</button>
+            <button className='tiny button' onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>Back To List</button>
           </div>
           </div>
         </div>
         <CoffeeForm coffee={this.props.coffee}   handleSubmit={this.props.handleSubmit}/>
-        <div><button className="button is-link" onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>Cancel</button>
+        <div><button className="button" onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>Cancel</button>
         </div>
 
       </div>
@@ -354,24 +355,24 @@ class CoffeeShow extends React.Component {
       <div>
         <div className='tile is-ancestor'>
           <div className='tile is-2'>
-            <div>
+            <div className='showImage'>
               <img src={this.props.coffee.image} alt={this.props.coffee.name} />
             </div>
           </div>
-          <div className='tile is-2'></div>
-          <div className='tile'>
-            <div>
-              <h3 className='tile '><span>Title: </span> {this.props.coffee.name} </h3>
-              <p className='tile is-child '><span>Type: </span> {this.props.coffee.type} </p>
-              <p className='tile is-child '><span>Genre: </span> {this.props.coffee.ingredients} </p>
-              <p className='tile is-child '><span>Description: </span> {this.props.coffee.description} </p>
+          <div ></div>
+          <div>
+            <div className='show'>
+              <h3 className='tile '>{this.props.coffee.name} </h3>
+              <p className='tile is-child '>{this.props.coffee.type} </p>
+              <p className='tile is-child '>{this.props.coffee.description} </p>
+              <p className='tile is-child '><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
               <p className='tile is-child '><span>Instructions: </span> {this.props.coffee.instructions} </p>
 
             </div>
             <div className='tile'>
             </div>
           <div className='tile'>
-            <button className='button is-warning' onClick={()=> this.props.toggleState('coffeeShowAvailable', 'coffeesListAvailable')}>See Full List</button>
+            <button className='button' onClick={()=> this.props.toggleState('coffeeShowAvailable', 'coffeesListAvailable')}>Back To List</button>
 
           </div>
         </div>
@@ -386,13 +387,14 @@ class CoffeeShow extends React.Component {
 class Header extends React.Component {
     render () {
       return (
-        <div class="header">
+        <div className="header">
 
-          <div class="header-name">
+          <div className="header-title">
 
-            <h1 className='name'> Coffees </h1>
+            <h1 className='title'> Lot of Lattes </h1>
 
           </div>
+<img src= '/css/coffee-cup-v2.png'/>
           </div>
       )
     }
@@ -402,10 +404,10 @@ class Header extends React.Component {
       render () {
         return (
           <footer>
-
+          <img src='/css/images.png'/>
             <div id="foot">
               <div id="creator">
-                Created Kellie Dambroso
+                Created By Kellie Dambroso
               </div>
               </div>
             </footer>

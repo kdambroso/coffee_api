@@ -20,6 +20,7 @@ class Recipe
                     "type" => result["type"],
                     "description" => result["description"],
                     "image" => result["image"],
+                    "instructions" => result["instructions"],
                     "ingredients" => result["ingredients"]
                 }
             end

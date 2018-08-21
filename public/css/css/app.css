@@ -1,0 +1,76 @@
+
+
+body {
+  background: url('/css/coffee-background-top-1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.header img {
+  width: 100px;
+  height: 100px;
+  align-items: right;
+}
+.header-title h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  color: #6F4E37;
+  margin-left: 10px;
+}
+main {
+  margin: 0 15%;
+}
+textarea.input {
+  height:220px;
+}
+.show {
+  background-color: rgba(242,242,242, 0.6);
+  padding: 2%;
+}
+.showImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showImage img{
+border: solid grey 2px;
+}
+>footer {
+  position: absolute;
+  right: 0;
+  bottom: 32px;
+  left: 0;
+  width:100%;
+  color: white;
+  height: 70px;
+}
+footer img {
+  height: 50px;
+  margin-bottom: -82px;
+  margin-left: 38%;
+  opacity: .8;
+}
+
+#creator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:250px;
+  margin: 0 auto;
+  height: 60px;
+  font-size: .75em;
+  text-align: center;
+}
