@@ -20,7 +20,7 @@ body {
 }
 .header img {
   width: 100px;
-  height: 100px;
+  height: 90px;
   align-items: right;
 }
 .header-title h1 {
@@ -36,6 +36,7 @@ main {
 textarea.input {
   height:220px;
 }
+
 .show {
   background-color: rgba(242,242,242, 0.6);
   padding: 2%;
@@ -47,7 +48,17 @@ textarea.input {
 }
 .showImage img{
 border: solid grey 2px;
+height: 350px;
+width: 350px;
 }
+.coffee {
+  text-align: center;
+}
+.list img{
+  height: 250px;
+  width: 250px;
+}
+
 >footer {
   position: absolute;
   right: 0;

@@ -243,10 +243,10 @@ class CoffeeForm extends React.Component {
     console.log(this);
     console.log(this.props)
     return (
-      <div className='field'>
+      <div >
         <form onSubmit={this.handleSubmit}>
           <label className='label' for='name'>Name</label>
-          <div className='control'>
+          <div >
             <input
               className='input'
               type='text'
@@ -256,7 +256,7 @@ class CoffeeForm extends React.Component {
             />
           </div>
           <label className='label' for='type'>Type</label>
-          <div className='control'>
+          <div>
             <input
               className='input'
               type='text'
@@ -266,7 +266,7 @@ class CoffeeForm extends React.Component {
             />
           </div>
           <label className='label' for='description'>Description</label>
-          <div className='control'>
+          <div >
             <textarea
               className='input'
               type='text'
@@ -275,7 +275,7 @@ class CoffeeForm extends React.Component {
               value= {this.state.description}
             />
           <label className='label' for='ingredients'>Ingredients</label>
-          <div className='control'>
+          <div >
             <input className='input'
               type='text'
               id='ingredients'
@@ -285,7 +285,7 @@ class CoffeeForm extends React.Component {
           </div>
           </div>
           <label className='label 'for='image'>Image</label>
-          <div className='control'>
+          <div >
             <input
               className='input'
               type='text'
@@ -295,7 +295,7 @@ class CoffeeForm extends React.Component {
             />
           </div>
           <label className='label' for='instructions'>Instructions</label>
-          <div className='control'>
+          <div >
             <textarea
               className='input'
               type='text'
@@ -305,7 +305,7 @@ class CoffeeForm extends React.Component {
 
             />
           </div>
-          <div className='control'>
+          <div >
             <input className='success button' type='submit' />
           </div>
         </form>
@@ -322,17 +322,17 @@ class Coffee extends React.Component {
   render () {
     return (
       <div>
-        <div className='tile is-ancestor'>
-          <div className='tile is-2'>
+        <div >
+          <div >
             <div>
               <img src={this.props.coffee.image} alt={this.props.coffee.name} />
             </div>
           </div>
-          <div className='tile is-2'></div>
-          <div className='tile'>
-            <div className='tile'>
+          <div ></div>
+          <div >
+            <div >
             </div>
-          <div className='tile'>
+          <div >
             <button className='tiny button' onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>Back To List</button>
           </div>
           </div>
@@ -353,25 +353,25 @@ class CoffeeShow extends React.Component {
   render () {
     return (
       <div>
-        <div className='tile is-ancestor'>
-          <div className='tile is-2'>
+        <div >
+          <div >
             <div className='showImage'>
               <img src={this.props.coffee.image} alt={this.props.coffee.name} />
             </div>
           </div>
           <div ></div>
-          <div>
+          <div >
             <div className='show'>
-              <h3 className='tile '>{this.props.coffee.name} </h3>
-              <p className='tile is-child '>{this.props.coffee.type} </p>
-              <p className='tile is-child '>{this.props.coffee.description} </p>
-              <p className='tile is-child '><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
-              <p className='tile is-child '><span>Instructions: </span> {this.props.coffee.instructions} </p>
+              <h3 >{this.props.coffee.name} </h3>
+              <p >{this.props.coffee.type} </p>
+              <p >{this.props.coffee.description} </p>
+              <p ><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
+              <p ><span>Instructions: </span> {this.props.coffee.instructions} </p>
 
             </div>
-            <div className='tile'>
+            <div >
             </div>
-          <div className='tile'>
+          <div >
             <button className='button' onClick={()=> this.props.toggleState('coffeeShowAvailable', 'coffeesListAvailable')}>Back To List</button>
 
           </div>
@@ -392,9 +392,9 @@ class Header extends React.Component {
           <div className="header-title">
 
             <h1 className='title'> Lot of Lattes </h1>
-
+            <img src= '/css/lotus-3192656__340.png'/>
           </div>
-<img src= '/css/coffee-cup-v2.png'/>
+
           </div>
       )
     }

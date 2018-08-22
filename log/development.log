@@ -5379,3 +5379,325 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/recipes" for 127.0.0.1 at 2018-08-20 23:51:27 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 27ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-20 23:51:57 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-20 23:52:38 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-20 23:54:50 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/recipes/19" for 127.0.0.1 at 2018-08-20 23:55:06 -0500
+Processing by RecipesController#update as HTML
+  Parameters: {"name"=>"Shakerato Baileys", "type"=>"Cocktail", "ingredients"=>"3-4 tbsp (40-50 ml) Espresso 1 tbsp plus 1 tsp (25 ml) Baileys Ice cubes", "description"=>"A creamy, energetic and boldly flavored cocktail. Baileys enrich the illy coffee’s caramel notes for a recipe that is soft, delicate and with a touch of alcohol.", "image"=>"https://www.illy.com/wps/wcm/connect/d3aba5bd-6ebe-43aa-a387-c1814d4e0536/Baileys_250x250.jpg?MOD=AJPERES&CACHEID=d3aba5bd-6ebe-43aa-a387-c1814d4e0536", "instructions"=>"Chill the glass (150ml) with the ice cubes.\nPrepare two espressos in a cappuccino cup.\nFill the Shaker Boston with ice cubes, Baileys and finally the coffees.\nShake and pour it in the chilled glass, using the strainer to filter out the ice.", "id"=>"19", "recipe"=>{"name"=>"Shakerato Baileys", "type"=>"Cocktail", "ingredients"=>"3-4 tbsp (40-50 ml) Espresso 1 tbsp plus 1 tsp (25 ml) Baileys Ice cubes", "description"=>"A creamy, energetic and boldly flavored cocktail. Baileys enrich the illy coffee’s caramel notes for a recipe that is soft, delicate and with a touch of alcohol.", "image"=>"https://www.illy.com/wps/wcm/connect/d3aba5bd-6ebe-43aa-a387-c1814d4e0536/Baileys_250x250.jpg?MOD=AJPERES&CACHEID=d3aba5bd-6ebe-43aa-a387-c1814d4e0536", "instructions"=>"Chill the glass (150ml) with the ice cubes.\nPrepare two espressos in a cappuccino cup.\nFill the Shaker Boston with ice cubes, Baileys and finally the coffees.\nShake and pour it in the chilled glass, using the strainer to filter out the ice.", "id"=>"19"}}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-20 23:55:06 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:01:58 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2018-08-21 00:03:54 -0500
+Processing by RecipesController#create as HTML
+  Parameters: {"name"=>"", "type"=>"", "ingredients"=>"", "description"=>"", "image"=>"https://www.illy.com/wps/wcm/connect/6b01c25b-ae07-48e6-b21f-b44c453e6896/latte-macchiato.jpg?MOD=AJPERES&CACHEID=6b01c25b-ae07-48e6-b21f-b44c453e6896", "instructions"=>"", "recipe"=>{"name"=>"", "type"=>"", "ingredients"=>"", "description"=>"", "image"=>"https://www.illy.com/wps/wcm/connect/6b01c25b-ae07-48e6-b21f-b44c453e6896/latte-macchiato.jpg?MOD=AJPERES&CACHEID=6b01c25b-ae07-48e6-b21f-b44c453e6896", "instructions"=>""}}
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:04:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:06:50 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:07:33 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:07:46 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:08:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:10:26 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:10:37 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:11:08 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:13:27 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:13:38 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:13:39 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:13:39 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:13:44 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:14:31 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:15:15 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 00:15:21 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:07:07 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 14ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:08:48 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:12:46 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:13:16 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:13:38 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:13:42 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:13:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 12ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:14:01 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:14:20 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:14:24 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:15:09 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:15:13 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:18:28 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:18:53 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:19:11 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:19:43 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:20:02 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:20:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:20:43 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:21:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:25:07 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:25:48 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:26:12 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:26:47 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:27:04 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:27:39 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:29:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:31:08 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:31:19 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:32:07 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:34:00 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:34:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:35:00 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:36:50 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:37:19 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:37:24 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:38:02 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 11:39:15 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 15:41:46 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-21 15:45:40 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
