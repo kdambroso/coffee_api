@@ -362,9 +362,9 @@ class CoffeeShow extends React.Component {
           <div ></div>
           <div >
             <div className='show'>
-              <h3 className='name'>{this.props.coffee.name} </h3>
+              <h2 className='name'>{this.props.coffee.name} </h2>
               <p className= 'type'>{this.props.coffee.type} </p>
-              <p className='descriprion'>{this.props.coffee.description} </p>
+              <h5 className='descriprion'>{this.props.coffee.description} </h5>
               <p className='ingredients' ><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
               <p className='instructions'><span>Instructions: </span> {this.props.coffee.instructions} </p>
 
@@ -414,6 +414,8 @@ class Header extends React.Component {
         )
       }
     }
+
+
 
 
 class App extends React.Component {

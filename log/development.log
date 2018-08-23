@@ -5851,3 +5851,270 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 21:56:54 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 21:57:39 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 21:58:53 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:00:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:01:51 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:14:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:21:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:27:21 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:36:49 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:37:53 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:38:09 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:40:39 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:41:12 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:43:33 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:45:19 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:45:46 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:46:28 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:47:50 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:49:32 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:51:10 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:51:31 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:52:02 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:52:44 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:53:22 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:53:37 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:54:44 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 4ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:55:25 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:56:16 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 22:56:52 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:01:37 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 55ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:06:40 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:08:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:09:02 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:09:24 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:10:35 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:11:20 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:11:50 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-22 23:11:56 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 11:53:21 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/recipes/18" for 127.0.0.1 at 2018-08-23 11:54:01 -0500
+Processing by RecipesController#update as HTML
+  Parameters: {"name"=>"Espresso Elisir", "type"=>"Espresso", "ingredients"=>"1 tbsp plus 1 or 2 tsp (20-25 ml) Espresso 2 tbsp (30 ml) Bénédictine Approx. 3 tbsp (40 ml) fresh heavy cream Unsweetened cocoa powder Ice cubes", "description"=>"The long history of Bénédictine is linked to the town of Fécamp in Normandy, where it originated. This fragrant and sweet liqueur, comprising a rich blend of herbs and spices softened by honey, blends harmoniously with coffee. Together, they give life to an aromatic cold Espresso drink, covered by a layer of whipped cream and decorated with a light dusting of cocoa. A true elixir for the senses.", "image"=>"https://www.illy.com/wps/wcm/connect/7f3b850e-dcfb-4d8e-9db3-dbd2e4655f50/elisir_espresso_250x250.jpg?MOD=AJPERES&CACHEID=7f3b850e-dcfb-4d8e-9db3-dbd2e4655f50", "instructions"=>"Prepare the Espresso in a small cup.\nFill the mixing glass 3/4 full with ice cubes. Add the Bénédictine and the Espresso. Cool, mixing the ingredients with the mixing spoon.\nPour into the glass, filtering the ice with a strainer.\nShake the cream, which should be very cold, in the mini shaker until it becomes quite thick.\nRest the cream on the surface of the cocktail, making it run down the back of the mixing spoon.\nGarnish with a light dusting of cocoa, and serve.", "id"=>"18", "recipe"=>{"name"=>"Espresso Elisir", "type"=>"Espresso", "ingredients"=>"1 tbsp plus 1 or 2 tsp (20-25 ml) Espresso 2 tbsp (30 ml) Bénédictine Approx. 3 tbsp (40 ml) fresh heavy cream Unsweetened cocoa powder Ice cubes", "description"=>"The long history of Bénédictine is linked to the town of Fécamp in Normandy, where it originated. This fragrant and sweet liqueur, comprising a rich blend of herbs and spices softened by honey, blends harmoniously with coffee. Together, they give life to an aromatic cold Espresso drink, covered by a layer of whipped cream and decorated with a light dusting of cocoa. A true elixir for the senses.", "image"=>"https://www.illy.com/wps/wcm/connect/7f3b850e-dcfb-4d8e-9db3-dbd2e4655f50/elisir_espresso_250x250.jpg?MOD=AJPERES&CACHEID=7f3b850e-dcfb-4d8e-9db3-dbd2e4655f50", "instructions"=>"Prepare the Espresso in a small cup.\nFill the mixing glass 3/4 full with ice cubes. Add the Bénédictine and the Espresso. Cool, mixing the ingredients with the mixing spoon.\nPour into the glass, filtering the ice with a strainer.\nShake the cream, which should be very cold, in the mini shaker until it becomes quite thick.\nRest the cream on the surface of the cocktail, making it run down the back of the mixing spoon.\nGarnish with a light dusting of cocoa, and serve.", "id"=>"18"}}
+Completed 200 OK in 39ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 11:54:01 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/recipes/21" for 127.0.0.1 at 2018-08-23 11:54:03 -0500
+Processing by RecipesController#delete as */*
+  Parameters: {"id"=>"21"}
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:17:58 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:18:04 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:19:34 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:19:40 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:20:35 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:21:02 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:21:19 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:21:48 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:23:45 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:24:23 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:30:09 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+

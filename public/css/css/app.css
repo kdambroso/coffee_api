@@ -1,5 +1,6 @@
 :root {
 --brown:#6F4E37;
+--purple:#811e91;
 }
 
 body {
@@ -44,14 +45,15 @@ textarea.input {
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 .name {
-  font-weight: 700px;
   text-align: center;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Kaushan Script', cursive;
   color: var(--brown);
+  margin-top: 2%;
 }
 .type {
   text-decoration: underline;
   text-align: center;
+  color: var(--purple);
 }
 .descriprion, .instructions{
   margin: 0 15% 5% 15%;
@@ -66,7 +68,7 @@ margin: 0 5% 5% 5%;
 }
 span {
   font-weight: bold;
-  color: var(--brown);
+  color: var(--purple);
 }
 
 
@@ -80,12 +82,25 @@ border: solid grey 2px;
 height: 350px;
 width: 350px;
 }
-.coffee {
+.coffee h3{
   text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+}
+.coffee :hover{
+  color: var(--purple);
 }
 .list img{
   height: 250px;
   width: 250px;
+  transition: all .2s ease-in-out;
+}
+.list :hover{
+  -webkit-transition: all .3s ease-in-out;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  box-shadow:7px 12px 7px 	#EEB9CD;
 }
 
 >footer {
