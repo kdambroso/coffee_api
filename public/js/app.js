@@ -362,11 +362,11 @@ class CoffeeShow extends React.Component {
           <div ></div>
           <div >
             <div className='show'>
-              <h3 >{this.props.coffee.name} </h3>
-              <p >{this.props.coffee.type} </p>
-              <p >{this.props.coffee.description} </p>
-              <p ><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
-              <p ><span>Instructions: </span> {this.props.coffee.instructions} </p>
+              <h3 className='name'>{this.props.coffee.name} </h3>
+              <p className= 'type'>{this.props.coffee.type} </p>
+              <p className='descriprion'>{this.props.coffee.description} </p>
+              <p className='ingredients' ><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
+              <p className='instructions'><span>Instructions: </span> {this.props.coffee.instructions} </p>
 
             </div>
             <div >

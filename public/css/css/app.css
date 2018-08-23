@@ -1,4 +1,6 @@
-
+:root {
+--brown:#6F4E37;
+}
 
 body {
   background: url('/css/coffee-background-top-1.jpg') no-repeat center center fixed;
@@ -25,9 +27,8 @@ body {
 }
 .header-title h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 3em;
-  font-weight: 700;
-  color: #6F4E37;
+  font-size: 4em;
+  color: var(--brown);
   margin-left: 10px;
 }
 main {
@@ -40,7 +41,35 @@ textarea.input {
 .show {
   background-color: rgba(242,242,242, 0.6);
   padding: 2%;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
+.name {
+  font-weight: 700px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  color: var(--brown);
+}
+.type {
+  text-decoration: underline;
+  text-align: center;
+}
+.descriprion, .instructions{
+  margin: 0 15% 5% 15%;
+}
+.descriprion{
+  font-weight: bold;
+}
+.ingredients {
+border: solid grey 2px;
+padding: 1%;
+margin: 0 5% 5% 5%;
+}
+span {
+  font-weight: bold;
+  color: var(--brown);
+}
+
+
 .showImage{
   display: flex;
   align-items: center;
