@@ -6118,3 +6118,8 @@ Processing by RecipesController#index as */*
 Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/recipes" for 127.0.0.1 at 2018-08-23 16:35:01 -0500
+Processing by RecipesController#index as */*
+Completed 200 OK in 37ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
