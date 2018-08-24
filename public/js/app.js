@@ -321,20 +321,13 @@ class CoffeeForm extends React.Component {
 class Coffee extends React.Component {
   render () {
     return (
-      <div>
-        <div >
-          <div >
-            <div>
-              <img src={this.props.coffee.image} alt={this.props.coffee.name} />
-            </div>
+      <div className= "editImage">
+        <div className="grid-x grid-padding-x">
+          <div className="cell small-4">
+            <img className="thumbnail" src={this.props.coffee.image} alt={this.props.coffee.name} />
           </div>
-          <div ></div>
-          <div >
-            <div >
-            </div>
           <div >
             <button className='tiny button' onClick={()=> this.props.toggleState('coffeesListAvailable', 'coffeeAvailable')}>Back To List</button>
-          </div>
           </div>
         </div>
         <CoffeeForm coffee={this.props.coffee}   handleSubmit={this.props.handleSubmit}/>
@@ -353,13 +346,10 @@ class CoffeeShow extends React.Component {
   render () {
     return (
       <div>
-        <div >
           <div >
             <div className='showImage'>
               <img src={this.props.coffee.image} alt={this.props.coffee.name} />
             </div>
-          </div>
-          <div ></div>
           <div >
             <div className='show'>
               <h2 className='name'>{this.props.coffee.name} </h2>
@@ -368,8 +358,6 @@ class CoffeeShow extends React.Component {
               <p className='ingredients' ><span>Ingredients: </span> {this.props.coffee.ingredients} </p>
               <p className='instructions'><span>Instructions: </span> {this.props.coffee.instructions} </p>
 
-            </div>
-            <div >
             </div>
           <div >
             <button className='button' onClick={()=> this.props.toggleState('coffeeShowAvailable', 'coffeesListAvailable')}>Back To List</button>
@@ -391,7 +379,7 @@ class Header extends React.Component {
 
           <div className="header-title">
 
-            <h1 className='title'> Lot of Lattes </h1>
+            <h1 className='title'> Lots of Lattes </h1>
             <img src= '/css/lotus-3192656__340.png'/>
           </div>
 

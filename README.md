@@ -1,24 +1,14 @@
-# README
+# Lots of Lattes
+## Created By Kellie Dambroso
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Wow your guests or just your tastebuds with this curated collection of coffee recipes. Who needs starbucks when you can use Lots of Lattes to create update and delete your favorite coffee recipes and make delicious coffee from home!
 
-Things you may want to cover:
+Created with:
 
-* Ruby version
+* Ruby version 2.3.3
 
-* System dependencies
+* PostgreSQL database
 
-* Configuration
+* React
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Hosted on Heroku

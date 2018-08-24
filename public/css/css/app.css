@@ -102,6 +102,9 @@ width: 350px;
   transform: scale(1.2);
   box-shadow:7px 12px 7px 	#EEB9CD;
 }
+.editImage img{
+margin-left: 105%;
+}
 
 >footer {
   position: absolute;
